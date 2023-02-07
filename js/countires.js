@@ -50,4 +50,20 @@ const loadCountries = () =>{
       
       }
 
+      
+      const displayCountryDetails = country =>{
+        console.log(country)
+
+        const countrydetail = document.getElementById('country-deatil')
+        countrydetail.innerHTML = `
+        <h2>Deatils : ${country.name.common}</h2>
+        
+        
+        `
+        
+
+        console.log(country)
+
+      }
+
 loadCountries()
