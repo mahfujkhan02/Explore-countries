@@ -11,9 +11,18 @@ const loadCountries = () =>{
 
     const displayCountries = countries =>{
 
-        for(const country of countries)
-        console.log(country)
+       // for(const country of countries)
+       // console.log(country)
 
+       const countryContainer = document.getElementById('countries-contaiener')
+
+       countries.forEach(country => {
+ 
+         const countryDiv = document.createElement('div');
+         countryDiv.classList.add('country')
+         console.log(country)
 }
+
+       )};  
 
 loadCountries()
