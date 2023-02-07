@@ -57,7 +57,7 @@ const loadCountries = () =>{
         const countrydetail = document.getElementById('country-deatil')
         countrydetail.innerHTML = `
         <h2>Deatils : ${country.name.common}</h2>
-        
+        <img src = "${country.flags.png}">
         
         `
         
